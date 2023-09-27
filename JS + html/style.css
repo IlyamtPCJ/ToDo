@@ -66,3 +66,9 @@ body {
 .todo-list_item_text {
     flex-grow: 1;
 }
+
+.todo-list_example{
+    background: #FFEBEB;
+    border-radius: 15px;
+    padding: 10px;
+}
