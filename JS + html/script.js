@@ -1,5 +1,5 @@
-const inputEl = document.getElementById('example')
-const btnEl = document.getElementsByClassName('.todo-list_btn')
+const inputEl = document.getElementById('input')
+const btnEl = document.querySelector('.todo-list_btn')
 const fieldEl = document.querySelector('.todo-list_field')
 
 function onBtnClick() {
@@ -11,7 +11,7 @@ function onBtnClick() {
         checkbox.type = 'checkbox'
     
         const text = document.createElement('p')
-        text.classList.add(todo-list_item-text)
+        text.classList.add('todo-list_item-text')
         text.innerText = inputEl.value
 
         const img = document.createElement('img')
