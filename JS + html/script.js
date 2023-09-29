@@ -11,7 +11,7 @@ function onBtnClick() {
         checkbox.type = 'checkbox'
     
         const text = document.createElement('p')
-        text.classList.add('todo-list_item-text')
+        text.classList.add('todo-list_item_text')
         text.innerText = inputEl.value
 
         const img = document.createElement('img')
