@@ -60,6 +60,7 @@ body {
 }
 
 .todo-list_item_done {
+    text-decoration: line-through;
     background: #EBFFED
 }
 
